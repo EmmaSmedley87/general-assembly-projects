@@ -24,6 +24,5 @@ const Navbar = () => {
     </nav>
   );
 };
-//hello emma is here
 
 export default Navbar;
