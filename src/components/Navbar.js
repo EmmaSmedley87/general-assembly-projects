@@ -3,25 +3,41 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          {" "}
-          <Link to="/animals">Animals</Link>
-        </li>
-        {/* <li>User Photo Upload</li> */}
-        <li>
-          {" "}
-          <Link to="/resources">Resources</Link>
-        </li>
-        {/* <li>Register</li>
-        <li>Login</li>
-        <li>Logout</li> */}
-      </ul>
-    </nav>
+    <section clasName="hero is-success">
+      <div className="hero-head">
+        <nav className="navbar">
+          <div className="navbar-brand">
+            <p>THE WILD LIST</p>
+          </div>
+          <div className="navbar-menu">
+            <div className="navbar-start">
+              <div className="navbar-item">
+                <Link className="button" to="/">
+                  Home
+                </Link>
+              </div>
+              <div className="navbar-item">
+                <Link className="button" to="/animals">
+                  Animals
+                </Link>
+              </div>
+              <div className="navbar-item">
+                <Link className="button" to="/resources">
+                  Resources
+                </Link>
+              </div>
+            </div>
+            <div className="navbar-end">
+              <div className="navbar-item">
+                <div className="button">Register</div>
+                <div className="button">Login</div>
+                <div className="button">Logout</div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
   );
 };
 
