@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import AnimalList from "./components/Animales/AnimalList";
+import ElephantList from "./components/Elephants/ElephantList";
 import Resources from "./components/Resources";
 import Footer from "./components/Footer";
 
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/animals" component={AnimalList} />
+          <Route path="/elephants" component={ElephantList} />
           <Route path="/resources" component={Resources} />
         </Switch>
         <Footer />
