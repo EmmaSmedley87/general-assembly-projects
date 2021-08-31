@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <section className="hero is-success">
+    <section className="hero is-info">
       <div className="hero-head">
         <nav className="navbar">
           <div className="navbar-brand">
-            <p>THE WILD LIST</p>
+            <p>THE ELEPHANT LIST</p>
           </div>
           <div className="navbar-menu">
             <div className="navbar-start">
