@@ -23,9 +23,9 @@ const ElephantCard = ({
   });
   return (
     <div className="column is-one-third">
-      <div className="card">
-        <div className="card-inner">
-          <div className="card-front">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
             <div className="card-header">
               <h4 className="card-header-title is-centered">{name}</h4>
             </div>
@@ -36,8 +36,7 @@ const ElephantCard = ({
               </figure>
             </div>
           </div>
-          <div className="card-back">
-            <h1>{name}</h1>
+          <div className="flip-card-back">
             <h2>Species: {species}</h2>
             <h2>Info: {note}</h2>
           </div>

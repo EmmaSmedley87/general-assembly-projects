@@ -27,8 +27,9 @@ const ElephantList = () => {
               key={elephant._id}
               _id={elephant._id}
               name={elephant.name}
-              fact={elephant.note}
+              note={elephant.note}
               image={elephant.image}
+              species={elephant.species}
             />
           ))}
         </div>
