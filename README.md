@@ -1,8 +1,11 @@
-# Project-2: The Wild List
+# Project-2: The Elephant List
 
-This is a project using React and an API to retrieve data about endangered animals out there in the world.
-
-We hope to shed light on the animals that need help!
+Started off with an idea for endangered animals.
+Built template of app, creating different components.
+Multiple APIs failed to work (requesting access, tokens, etc.)
+Changed to an elephant API.
+Issue with permanent acccess (CORS: Access missing).
+Temporary access made.
 
 By Emma Smedley and Antony Long
 General Assembly, 2021.

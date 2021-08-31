@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <section clasName="hero is-success">
+    <section className="hero is-success">
       <div className="hero-head">
         <nav className="navbar">
           <div className="navbar-brand">
