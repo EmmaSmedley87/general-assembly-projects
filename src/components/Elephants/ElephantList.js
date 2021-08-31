@@ -18,20 +18,21 @@ const ElephantList = () => {
     fetchAllElephantsFromApi();
   }, []);
 
-  console.log(state);
-
   return (
     <section className="section">
       <div className="container">
-        {state.elephants.map((elephant) => (
-          <ElephantCard
-            key={elephant._id}
-            _id={elephant._id}
-            name={elephant.name}
-            fact={elephant.note}
-            image={elephant.image}
-          />
-        ))}
+        <div className="columns is-multiline">
+          {state.elephants.map((elephant) => (
+            <ElephantCard
+              key={elephant._id}
+              _id={elephant._id}
+              name={elephant.name}
+              note={elephant.note}
+              image={elephant.image}
+              species={elephant.species}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );

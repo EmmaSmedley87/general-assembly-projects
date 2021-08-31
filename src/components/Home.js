@@ -3,7 +3,7 @@ import elephantIcon from "../styles/images/elephant.jpeg";
 
 const Home = () => {
   return (
-    <section className="hero is-fullheight is-primary">
+    <section className="hero is-fullheight is-success">
       <div className="hero-body">
         <figure>
           <figcaption>Listen to the elephant</figcaption>
@@ -14,8 +14,8 @@ const Home = () => {
         ;
         <img src={elephantIcon} alt="This is an elephant" />
         <div className="container has-text-centered">
-          <p className="title">THE WILD LIST</p>
-          <p className="subtitle">A list of endangered wildlife</p>
+          <p className="title">THE ELEPHANT LIST</p>
+          <p className="subtitle">A list of elephants!</p>
         </div>
       </div>
     </section>
