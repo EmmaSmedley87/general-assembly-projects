@@ -26,12 +26,17 @@ const Navbar = () => {
                   Resources
                 </Link>
               </div>
+              <div className="navbar-item">
+                <Link className="button" to="/SearchBar">
+                  Search
+                </Link>
+              </div>
             </div>
             <div className="navbar-end">
               <div className="navbar-item">
-                <div className="button">Register</div>
+                {/* <div className="button">Register</div>
                 <div className="button">Login</div>
-                <div className="button">Logout</div>
+                <div className="button">Logout</div> */}
               </div>
             </div>
           </div>
