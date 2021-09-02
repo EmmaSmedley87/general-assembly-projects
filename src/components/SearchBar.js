@@ -13,7 +13,7 @@ const SearchBar = ({ keyword, setKeyword }) => {
       key="random1"
       value={keyword}
       placeholder={"search elephants"}
-      onChange={(e) => setKeyword(e.targetvalue)}
+      onChange={setKeyword}
     />
   );
 };
