@@ -26,6 +26,11 @@ const Navbar = () => {
                   Resources
                 </Link>
               </div>
+              <div className="navbar-item">
+                <Link className="button" to="/random-elephant">
+                  Random
+                </Link>
+              </div>
             </div>
             <div className="navbar-end">
               <div className="navbar-item">

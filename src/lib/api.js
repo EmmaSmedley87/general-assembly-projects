@@ -6,3 +6,7 @@ const baseUrl =
 export const getAllElephants = () => {
   return axios.get(`${baseUrl}`);
 };
+
+export const getRandomElephant = () => {
+  return axios.get(`${baseUrl}/random`);
+};
