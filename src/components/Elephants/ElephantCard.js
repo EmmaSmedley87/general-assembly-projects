@@ -46,6 +46,4 @@ const ElephantCard = ({
   );
 };
 
-// name country
-
 export default ElephantCard;
