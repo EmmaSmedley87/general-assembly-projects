@@ -27,7 +27,7 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="navbar-item">
-                <Link className="button" to="/SearchBar">
+                <Link className="button" to="/SearchPage">
                   Search
                 </Link>
               </div>

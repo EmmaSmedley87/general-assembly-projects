@@ -7,7 +7,6 @@ import ElephantList from "./components/Elephants/ElephantList";
 import Resources from "./components/Resources";
 import Footer from "./components/Footer";
 import SearchPage from "./components/SearchPage";
-import SearchBar from "./components/SearchBar";
 
 function App() {
   return (
@@ -18,10 +17,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/elephants" component={ElephantList} />
           <Route path="/resources" component={Resources} />
-          <div className="App">
-            <SearchPage />
-          </div>
-          <Route path="/SearchBar" component={SearchBar} />
+          <Route path="/SearchPage" component={SearchPage} />
         </Switch>
         <Footer />
       </BrowserRouter>
