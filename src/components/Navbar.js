@@ -27,6 +27,9 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="navbar-item">
+                <Link className="button" to="/SearchPage">
+                  Search
+                </Link>
                 <Link className="button" to="/random-elephant">
                   Random
                 </Link>
@@ -34,9 +37,9 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
               <div className="navbar-item">
-                <div className="button">Register</div>
+                {/* <div className="button">Register</div>
                 <div className="button">Login</div>
-                <div className="button">Logout</div>
+                <div className="button">Logout</div> */}
               </div>
             </div>
           </div>
