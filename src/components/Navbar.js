@@ -30,6 +30,9 @@ const Navbar = () => {
                 <Link className="button" to="/SearchPage">
                   Search
                 </Link>
+                <Link className="button" to="/random-elephant">
+                  Random
+                </Link>
               </div>
             </div>
             <div className="navbar-end">

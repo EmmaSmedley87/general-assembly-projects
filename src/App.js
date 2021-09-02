@@ -7,6 +7,7 @@ import ElephantList from "./components/Elephants/ElephantList";
 import Resources from "./components/Resources";
 import Footer from "./components/Footer";
 import SearchPage from "./components/SearchPage";
+import RandomElephant from "./components/Elephants/RandomElephant";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/elephants" component={ElephantList} />
           <Route path="/resources" component={Resources} />
           <Route path="/SearchPage" component={SearchPage} />
+          <Route path="/random-elephant" component={RandomElephant} />
         </Switch>
         <Footer />
       </BrowserRouter>
