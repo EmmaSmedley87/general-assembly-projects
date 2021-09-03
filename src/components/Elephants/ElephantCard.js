@@ -1,6 +1,6 @@
 import React from "react";
+import { UpdownButton } from "@lyket/react";
 
-// this calls the specific data we want to show on all our animal cards
 const ElephantCard = ({
   _id,
   name,
@@ -39,6 +39,12 @@ const ElephantCard = ({
           <div className="flip-card-back">
             <h2>Species: {species}</h2>
             <h2>Info: {note}</h2>
+            <div className="is-centered">
+              <UpdownButton
+                id="do-you-like-elephants"
+                namespace="elephant-card"
+              />
+            </div>
           </div>
         </div>
       </div>
