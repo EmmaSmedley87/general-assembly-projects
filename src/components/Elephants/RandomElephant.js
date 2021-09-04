@@ -39,7 +39,7 @@ const RandomElephant = () => {
       </section>
       <section className="section">
         <div className="container">
-          <div className="columns is-multiline">
+          <div className="columns is-multiline is-centered">
             <div className="card">
               <p>Random elephant 1</p>
             </div>
