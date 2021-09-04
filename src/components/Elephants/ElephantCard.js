@@ -37,13 +37,20 @@ const ElephantCard = ({
             </div>
           </div>
           <div className="flip-card-back">
-            <h2>Species: {species}</h2>
-            <h2>Info: {note}</h2>
-            <div className="is-centered">
-              <UpdownButton
-                id="do-you-like-elephants"
-                namespace="elephant-card"
-              />
+            <h2>
+              <strong>Species</strong>: {species}
+            </h2>
+            <h2>
+              <strong>Info</strong>: {note}
+            </h2>
+            <div class="columns is-mobile">
+              <div class="column is-three-fifths is-offset-one-fifth">
+                {" "}
+                <UpdownButton
+                  id="do-you-like-elephants"
+                  namespace="elephant-card"
+                />
+              </div>
             </div>
           </div>
         </div>
