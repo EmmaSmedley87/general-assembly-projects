@@ -2,7 +2,7 @@ import React from "react";
 
 const Resources = () => {
   return (
-    <section className="hero is-fullheight is-primary">
+    <section className="hero is-fullheight is-light">
       <div className="hero-body">
         <div className="container has-text-centered">
           <ul>

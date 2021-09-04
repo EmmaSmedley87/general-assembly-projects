@@ -11,27 +11,6 @@ const RandomCard = ({
   wikilink,
 }) => {
   return (
-    // <div className="column">
-    //   <div className="flip-card">
-    //     <div className="flip-card-inner">
-    //       <div className="flip-card-front">
-    //         <div className="card-header">
-    //           <h4 className="card-header-title is-centered">{name}</h4>
-    //         </div>
-
-    //         <div className="card-image">
-    //           <figure className="image is-50by50">
-    //             <img src={image} alt={name} width="50" height="50" />
-    //           </figure>
-    //         </div>
-    //       </div>
-    //       <div className="flip-card-back has-text-centered">
-    //         <h2>Species: {species}</h2>
-    //         <h2>Info: {note}</h2>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <section className="section">
       <div className="container">
         <h2 className="title has-text-centered">{name}</h2>
