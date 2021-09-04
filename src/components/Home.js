@@ -1,6 +1,6 @@
 import React from "react";
 import elephantIcon from "../styles/images/elephant.jpeg";
-import elephantClick from "../styles/images/elephantclickbutton.png";
+import elephantClick from "../styles/images/elephantclick.jpeg";
 
 const Home = () => {
   let audio = new Audio("http://ring-nature.com/tones/elephant.mp3");
@@ -22,7 +22,7 @@ const Home = () => {
           <figure className="has-text-centered">
             <figcaption>Listen to the elephant</figcaption>
             {/* <button onClick={start}>Click here to play sound!</button> */}
-            <div className="is-rounded" onClick={start}>
+            <div className="image is-128x128" onClick={start}>
               <img src={elephantClick} alt="This is an elephant" />
             </div>
             {/* <audio controls src="http://ring-nature.com/tones/elephant.mp3">

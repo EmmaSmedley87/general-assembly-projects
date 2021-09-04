@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import SearchBar from "./SearchBar";
 import ElephantSearchResults from "./Elephants/ElephantSearchResults";
 import { getAllElephants } from "../lib/api";
-import ElephantButton from "../styles/images/elephantclickbutton.png";
+// import ElephantButton from "../styles/images/elephantclickbutton.png";
 
 const SearchPage = (props) => {
   const [input, setInput] = useState("");
@@ -35,10 +35,6 @@ const SearchPage = (props) => {
   return (
     <React.Fragment>
       <h1>Elephant Search</h1>
-      <img
-        src="../styles/images/elephantclickbutton.png"
-        alt="this is an elephant icon"
-      />
       <SearchBar keyword={input} setKeyword={handleChange} />
       <ElephantSearchResults elephants={filterResults} />
     </React.Fragment>
