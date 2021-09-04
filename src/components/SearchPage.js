@@ -33,11 +33,13 @@ const SearchPage = (props) => {
   };
 
   return (
-    <React.Fragment>
-      <h1>Elephant Search</h1>
-      <SearchBar keyword={input} setKeyword={handleChange} />
-      <ElephantSearchResults elephants={filterResults} />
-    </React.Fragment>
+    <section className="section">
+      <div className="container has-text-centered">
+        <h1 className="title">Elephant Search</h1>
+        <SearchBar keyword={input} setKeyword={handleChange} />
+        <ElephantSearchResults elephants={filterResults} />
+      </div>
+    </section>
   );
 };
 
