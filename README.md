@@ -46,6 +46,8 @@ Spotted a gap in the market for an wildlife API
 A working resources page
 A styled website
 
+## Problems / Issues
+
 1. We were perhaps too rigid with wanting to do an wildlife/exotic animal project and should have tried out another API.
 2. The API did not actually have a lot of data to pull from, very limited with what to work with.
 3. The API was semi-functioning, so half the data didn't actually work/show.
@@ -58,12 +60,6 @@ A styled website
 - Problems with a lot of public APIs, try and resolve this ASAP for future projects.
 - Using Insomnia app to help find a working API.
 - Understanding Bulma more.
-
-## Problems / Issues
-
-1. We perhaps were too rigid with wanting to do an wildlife/exotic animal project and should have tried out another API
-2. The API did not actually have a lot of data to pull from.
-3. The API was semi-functioning, so half the data didn't actually work.
 
 ## Additions moving forwards
 
