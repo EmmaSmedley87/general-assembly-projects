@@ -22,6 +22,10 @@
 - To get an app that produces a list of elephants
 - To be able to view the details about the elephant
 
+# Our Images
+
+- ![alt text]( Elephant List Homepage.jpg)
+
 ## Extra Features:
 
 - A donate button
