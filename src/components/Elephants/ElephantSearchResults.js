@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-const ElephantSearch = ({ ElephantList = [] }) => {
+const ElephantSearch = ({ elephants = [] }) => {
   return (
     <>
-      {ElephantList.map((data, index) => {
+      {elephants.map((data) => {
         if (data) {
           return (
-            <div key={data.name}>
+            <div key={data._id}>
               <h1>{data.name}</h1>
             </div>
           );

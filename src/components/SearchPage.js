@@ -1,19 +1,22 @@
-import React, { useState, useEffect } from "react";
-import SearchBar from "./SearchBar";
-import ElephantSearch from "./Elephants/ElephantSearch";
+import React, { useState, useEffect } from 'react';
+import SearchBar from './SearchBar';
+import ElephantSearchResults from './Elephants/ElephantSearchResults';
+import { getAllElephants } from '../lib/api';
 
 const SearchPage = (props) => {
-  const [input, setInput] = useState("");
-  const [elephantSearch, setElephantSearch] = useState("");
+  const [input, setInput] = useState('');
+  const [allElephants, setAllElephants] = useState([]);
+  const [filterResults, setFilterResults] = useState([]);
 
   const fetchData = async () => {
-    return await fetch(
-      '"https://cors-anywhere.herokuapp.com/https://elephant-api.herokuapp.com/elephants'
-    )
-      .then((response) => response.json())
-      .then((data) => {
-        setElephantSearch(data);
-      });
+    const elephants = await getAllElephants();
+    // eslint-disable-next-line array-callback-return
+    const elephantsWithNames = elephants.data.filter((elephant) => {
+      if (elephant.name && elephant.species) {
+        return elephant;
+      }
+    });
+    setAllElephants(elephantsWithNames);
   };
 
   useEffect(() => {
@@ -21,17 +24,18 @@ const SearchPage = (props) => {
   }, []);
 
   const handleChange = (e) => {
-    console.log(e);
+    const filteredElephants = allElephants.filter((elephant) =>
+      elephant.name.includes(e.target.value)
+    );
+    setFilterResults(filteredElephants);
     setInput(e.target.value);
   };
-
-  console.log(elephantSearch);
 
   return (
     <React.Fragment>
       <h1>Elephant Search</h1>
       <SearchBar keyword={input} setKeyword={handleChange} />
-      <ElephantSearch elephantSearch={ElephantSearch} />
+      <ElephantSearchResults elephants={filterResults} />
     </React.Fragment>
   );
 };
