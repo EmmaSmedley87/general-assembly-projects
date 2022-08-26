@@ -1,4 +1,4 @@
-# General-Assembly-Projects
+# General Assembly Projects
 My General Assembly Software Engineering Intensive course project work i completed between June-Nov 2021 can be found here. Each project has its own folder with seperate README files detailing further information on each project.
 
 The projects were as follows;
@@ -15,5 +15,3 @@ Travel App
 **GA Project 4 - Django Backend & React Frontend Fullstack App Using Redux** <br>
 Baking App
 
-![](edit/main/General%20Assembly%20Logo.png)
-![](images/Ninja%20Turtles%20Game.png)
