@@ -15,5 +15,5 @@ Travel App
 **GA Project 4 - Django Backend & React Frontend Fullstack App Using Redux** <br>
 Baking App
 
-![](main/General%20Assembly%20Logo.png)
+![](edit/main/General%20Assembly%20Logo.png)
 ![](images/Ninja%20Turtles%20Game.png)
