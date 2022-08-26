@@ -1,5 +1,5 @@
 # General-Assembly-Projects
-My General Assembly Software Engineering Intensive course project work i completed can be found here. Each project has their own folder with seperate README files detailing each project.
+My General Assembly Software Engineering Intensive course project work i completed between June- Nov 2021 can be found here. Each project has its own folder with seperate README files detailing further information on each project.
 
 The projects were as follows;
 
