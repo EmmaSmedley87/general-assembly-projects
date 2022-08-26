@@ -3,14 +3,14 @@ My General Assembly Software Engineering Intensive course project work i complet
 
 The projects were as follows;
 
-**GA Project 1 - JavaScript Game**
+**GA Project 1 - JavaScript Game** <br>
 Ninja Turtle Pac Man
 
-**GA Project 2 - React Front End Utilizing An External API**
+**GA Project 2 - React Front End Utilizing An External API** <br>
 Wildlife- Elephant App
 
-**GA Project 3 - MERN Full Stack App - Using MongoDB, Express, React, Node.js**
+**GA Project 3 - MERN Full Stack App - Using MongoDB, Express, React, Node.js** <br>
 Travel App
 
-**GA Project 4 - Django Backend & React Frontend Fullstack App Using Redux**
+**GA Project 4 - Django Backend & React Frontend Fullstack App Using Redux** <br>
 Baking App
