@@ -1,4 +1,4 @@
-# GA Project Three - TravelApp - Backend & Front End Utilizing JavaScript & React
+# GA Project 3 - TravelApp - Backend & Front End Utilizing JavaScript & React
 
 ## Table of Contents:
 
